@@ -1,0 +1,45 @@
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+
+&lt;head>
+    &lt;meta charset="UTF-8">
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+    &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    &lt;link rel="stylesheet" href="style.css">
+    &lt;title>My Todo List&lt;/title>
+&lt;/head>
+
+&lt;body>
+    &lt;div class="container">
+        &lt;header class="text-center text-light my-4">
+            &lt;h1 class="mb-4">Todo List&lt;/h1>
+            &lt;form action="" class="search">
+                &lt;i class="fa fa-search icon">&lt;/i>
+                &lt;input type="text" class="form-control input-field m-auto" placeholder="search todos">
+            &lt;/form>
+        &lt;/header>
+
+        &lt;ul class="list-group todos mx-auto text-light">
+            &lt;li class="list-group-item d-flex justify-content-between align-items-center">
+                &lt;span>Create a Javascript Project&lt;/span>
+                &lt;i class="fa fa-trash-o delete">&lt;/i>
+            &lt;/li>
+            &lt;li class="list-group-item d-flex justify-content-between align-items-center">
+                &lt;span>Learn Programmin&lt;/span>
+                &lt;i class="fa fa-trash-o delete">&lt;/i>
+
+            &lt;/li>
+        &lt;/ul>
+
+        &lt;form  class="add text-center my-4">
+            &lt;label class="text-light">
+                Add new todo...
+            &lt;/label>
+            &lt;input type="text" class="form-control m-auto" name="add"/>
+        &lt;/form>
+    &lt;/div>
+    &lt;script src="app.js">&lt;/script>
+&lt;/body>
+
+&lt;/html>
